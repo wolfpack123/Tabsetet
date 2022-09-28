@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="script.js" defer></script>
+  <link href="style.css" rel="stylesheet">
+  <link rel="stylesheet" href="/font-awesome-4.7.0/css/font-awesome.min.css">
+  <title>Tabs</title>
+</head>
+<body>
+  <ul class="tabs">
+    <li data-tab-target="#HTML" class="active tab">HTML</li>
+    <li data-tab-target="#CSS" class="tab">CSS</li>
+    <li data-tab-target="#JAVASCRIPT" class="tab">JAVASCRIPT</li>
+  </ul>
+
+  <div class="tab-content">
+    <div id="HTML" data-tab-content class="active">
+      <h1>HTML</h1>
+      <i class="fa fa-plus-circle" aria-hidden="true"></i>
+      <p>This is the HTML</p>
+    </div>
+    <div id="CSS" data-tab-content>
+      <h1>CSS</h1>
+      <p>Some information on CSS</p>
+    </div>
+    <div id="JAVASCRIPT" data-tab-content>
+      <h1>JAVASCRIPT</h1>
+      <p>Some information on JAVASCRIPT</p>
+    </div>
+  </div>
+</body>
+</html>
